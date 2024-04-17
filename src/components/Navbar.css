@@ -52,7 +52,6 @@
     border-radius: 8px;
     width: 107px;
     height: 33px;
-    border: none;
 }
 .sign-up-btn{
     background-color: var(--sub-color);
@@ -165,7 +164,6 @@
        }
        .nav-item{
            padding-bottom: 10px;
-           background-color: blueviolet;
          }
          .burger{
              display: block;

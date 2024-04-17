@@ -144,9 +144,11 @@
        margin-right: 20px;
      }
 
-     /* .add-question p{
-      font-size: 100px;
-     } */
+     .add-question h4{
+      font-size: 30px;
+      padding-top: 2px;
+      padding-right: 2px;
+     }
    
     .question-left-side{
         width: 90%;
