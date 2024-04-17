@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/webswift/static/css/main.6dac8332.css",
+    "main.css": "/webswift/static/css/main.97502fdf.css",
     "main.js": "/webswift/static/js/main.9830558a.js",
     "static/js/453.589ce95a.chunk.js": "/webswift/static/js/453.589ce95a.chunk.js",
     "static/media/demo-pic.png": "/webswift/static/media/demo-pic.6e1222424c6da39a6ff4.png",
     "index.html": "/webswift/index.html",
-    "main.6dac8332.css.map": "/webswift/static/css/main.6dac8332.css.map",
+    "main.97502fdf.css.map": "/webswift/static/css/main.97502fdf.css.map",
     "main.9830558a.js.map": "/webswift/static/js/main.9830558a.js.map",
     "453.589ce95a.chunk.js.map": "/webswift/static/js/453.589ce95a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dac8332.css",
+    "static/css/main.97502fdf.css",
     "static/js/main.9830558a.js"
   ]
 }
