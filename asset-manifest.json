@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/webswift/static/css/main.e9939814.css",
+    "main.js": "/webswift/static/js/main.e085f197.js",
+    "static/js/453.589ce95a.chunk.js": "/webswift/static/js/453.589ce95a.chunk.js",
+    "static/media/demo-pic.png": "/webswift/static/media/demo-pic.6e1222424c6da39a6ff4.png",
+    "index.html": "/webswift/index.html",
+    "main.e9939814.css.map": "/webswift/static/css/main.e9939814.css.map",
+    "main.e085f197.js.map": "/webswift/static/js/main.e085f197.js.map",
+    "453.589ce95a.chunk.js.map": "/webswift/static/js/453.589ce95a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9939814.css",
+    "static/js/main.e085f197.js"
+  ]
+}
