@@ -1,6 +1,5 @@
 
 .navbar-container{
-    position: absolute;
     width: 90%;
     margin: auto;
     background-color: var(--main-color);
@@ -11,6 +10,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    margin: auto;
 }
 .logo-img{
     width: 136.98px;
@@ -157,8 +158,12 @@
            margin-top: -20px;
            
        } 
+       .navbar-container{
+        height: 50px;
+       }
        .nav-item{
            padding-bottom: 10px;
+           background-color: blueviolet;
          }
          .burger{
              display: block;
