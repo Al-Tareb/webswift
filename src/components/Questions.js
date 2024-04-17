@@ -21,32 +21,32 @@ function Questions() {
                 <FontAwesomeIcon icon={faUser} style={{ position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)', color: '#888' }} />
                 <input type="text" placeholder="Abdullah Al-Tareb" style={{ paddingLeft: '30px' }} />
               </div>
-              <button></button>
+              <button>Contact Us</button>
            </div>
            <div className='question-right-side'>
             <div className='question-section'>
                 <h3>is there any problems?</h3>
-                <span className='add-question'>+</span>
+                <span className='add-question'><h4>+</h4></span>
             </div>
             <div className='question-section'>
                 <h3>is there any problems?</h3>
-                <span className='add-question'>+</span>
+                <span className='add-question'><h4>+</h4></span>
             </div>
             <div className='question-section'>
                 <h3>is there any problems?</h3>
-                <span className='add-question'>+</span>
+                <span className='add-question'><h4>+</h4></span>
             </div>
             <div className='question-section'>
                 <h3>is there any problems?</h3>
-                <span className='add-question'>+</span>
+                <span className='add-question'><h4>+</h4></span>
             </div>
             <div className='question-section'>
                 <h3>is there any problems?</h3>
-                <span className='add-question'>+</span>
+                <span className='add-question'><h4>+</h4></span>
             </div>
             <div className='question-section'>
                 <h3>is there any problems?</h3>
-                <span className='add-question'>+</span>
+                <span className='add-question'><h4>+</h4></span>
             </div>
            </div>
        </div>
