@@ -1,0 +1,155 @@
+.meet-team-container{
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0 50px;
+  }
+  .meet-team-title{
+    width: 70%;
+  }
+  .meet-team-title h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+  }
+  .meet-team-title p{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    line-height: 31.5px;
+    text-align: center;
+  }
+  .meet-team-content{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .meet-team-section{
+    width: 22%;
+    height: 349px;
+    border-radius: 16px;
+    border: 1px solid var(--black3-color);
+    margin-top: 45px;
+  }
+  .meet-team-section .circle-shape{
+      width: 175px;
+      height: 175px;
+      margin: auto;
+      border-radius: 185px;
+      background-color: var(--white-color);
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+.meet-team-section h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    line-height: 31.5px;
+    text-align: center;
+    color: var(--sub-color);
+}
+.meet-team-section p{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    line-height: 25.5px;
+    text-align: center;
+    color: var(--gray-color);
+}
+@media only screen and (max-width: 1200px) {
+    .meet-team-title h2{
+        font-size: 42px;
+        line-height: 58px;
+      }
+      .meet-team-title p{
+        font-size: 17px;
+        line-height: 25.5px;
+      }
+    .meet-team-content{
+        width: 95%;
+      }
+    .meet-team-section{
+        width: 22%;
+        height: 320px;
+      }
+    .meet-team-section .circle-shape{
+        width: 145px;
+        height: 145px;
+      }
+      .meet-team-section h4{
+        font-size: 15px;
+        line-height: 31.5px;
+    }
+    .meet-team-section p{
+        font-size: 13px;
+        line-height: 25.5px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .meet-team-title h2{
+        font-size: 32px;
+        line-height: 48px;
+      }
+      .meet-team-title p{
+        font-size: 15px;
+        line-height: 20.5px;
+      }
+    .meet-team-content{
+        width: 95%;
+      }
+    .meet-team-section{
+        width: 24%;
+        height: 250px;
+      }
+      .meet-team-section .circle-shape{
+        width: 125px;
+        height: 125px;
+        margin-top: 30px;
+      }
+      .meet-team-section h4{
+        font-size: 12px;
+        line-height: 21.5px;
+    }
+    .meet-team-section p{
+        font-size: 10px;
+        line-height: 20.5px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .meet-team-title{
+        width: 90%;
+      }
+    .meet-team-content{
+        width: 75%;
+        flex-direction: column;
+      }
+      .meet-team-section{
+        width: 350px;
+        height: 349px;
+        border-radius: 16px;
+        margin-top: 45px;
+      }
+   
+      .meet-team-section .circle-shape{
+        width: 195px;
+        height: 195px;
+        margin-top: 30px;
+      }
+      .meet-team-section h4{
+        font-size: 21px;
+        line-height: 31.5px;
+    }
+    .meet-team-section p{
+        font-size: 17px;
+        line-height: 25.5px;
+    }
+}

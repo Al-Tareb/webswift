@@ -1,0 +1,117 @@
+.price-container{
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 50px 0 50px;
+  }
+  .price-title h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 41px;
+    line-height: 61.5px;
+    text-align: center;
+  }
+  .price-title p{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    line-height: 31.5px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--white2-color);
+  }
+  .price-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .price-content .price{
+    width: 100%;
+  }
+  .price-content .price span{
+    width: 102px;
+    height: 69px;
+    background-color: var(--sub-color);
+    color: var(--main-color);
+    border-radius: 0px 12px 0px 4px;
+    padding: 10px 20px;
+    margin-left: 95%;
+  }
+  .product-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .prompt-price, .pro-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+
+  .prompt-price h3, .pro-price h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 41px;
+    line-height: 61.5px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .prompt-price p, .pro-price p{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 19.5px;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+
+  .prompt-price button, .pro-price button{
+   width: 237px;
+   height: 50px;
+   background-color: var(--main-color);
+   color: var(--white-color);
+   border-radius: 12px;
+   border: 1px solid var(--white-color);
+  }
+
+@media only screen and (max-width: 900px) {
+    .price-container{
+        width: 85%;
+      }
+      .price-title h2{
+        font-size: 31px;
+        line-height: 51.5px;
+      }
+    .prompt-price, .pro-price{
+        width: 46%;
+      }
+      .prompt-price h3, .pro-price h3{
+        font-size: 31px;
+        line-height: 51.5px;
+      }
+      .prompt-price button, .pro-price button{
+        width: 190px;
+        height: 50px;
+       }
+}
+
+@media only screen and (max-width: 700px) {
+    .price-content .price{
+        width: 80%;
+      }
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .prompt-price, .pro-price{
+        width: 80%;
+        padding-bottom: 30px;
+      }
+}

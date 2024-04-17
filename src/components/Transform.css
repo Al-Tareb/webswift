@@ -1,0 +1,102 @@
+.transform-container{
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    margin: auto;
+    padding: 200px 0 50px;
+  }
+  .transform-title{
+    margin-bottom: 30px;
+  }
+
+  .transform-title h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+} 
+.transform-description{
+    margin-bottom: 30px;
+}
+.transform-description p{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    line-height: 31.5px;
+    text-align: center;
+    
+}
+.transform-img{
+    margin-top: 100px;
+}
+.transform-img img{
+    width: 130%;
+    margin-left: -15%;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .transform-container{
+        padding: 130px 0 50px;
+      }
+  .transform-title h2{
+    font-size: 42px;
+    line-height: 58px;
+} 
+.transform-title{
+    margin-bottom: 20px;
+  }
+.transform-description p{
+    font-size: 18px;
+    line-height: 26px;
+    
+}
+.transform-img{
+    margin-top: 70px;
+}
+.transform-img img{
+    width: 100%;
+    margin-left: 0;
+
+}
+}
+
+
+@media only screen and (max-width: 900px) {
+.transform-container{
+        padding: 90px 0 50px;
+      }
+  .transform-title h2{
+    font-size: 32px;
+    line-height: 48px;
+} 
+.transform-title{
+    margin-bottom: 20px;
+  }
+.transform-description p{
+    font-size: 15px;
+    line-height: 23px;
+    
+}
+}
+
+@media only screen and (max-width: 700px) {
+    .transform-container{
+        width: 90%;
+            padding: 70px 0 50px;
+          }
+      .transform-title h2{
+        font-size: 25px;
+        line-height: 33px;
+    } 
+    .transform-title{
+        margin-bottom: 20px;
+      }
+    .transform-description p{
+        font-size: 13px;
+        line-height: 23px;
+        
+    }
+    }

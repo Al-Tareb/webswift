@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.webswift-main-container{
+  background-color: var(--main-color);
+  width: 100%;
+}
+
+:root{
+  --main-color: #000;
+  --sub-color: #C0F600;
+  --white-color: #ffffff;
+  --gray-color: #B3B3B3;
+  --white2-color: #CCCCCC;
+  --white3-color: #999999;
+  --black3-color: #A0A0A0;
+}

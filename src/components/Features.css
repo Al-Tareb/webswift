@@ -1,0 +1,164 @@
+.features-container{
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0 50px;
+}
+.feature-title h2{
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+}
+.feature-prompt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.feature-prompt img{
+    width: 79px;
+    height: 79px;
+}
+.feature-prompt h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 41px;
+    line-height: 61.5px;
+    text-align: center;
+    color: var(--gray-color);
+}
+.feature-icon{
+    width: 81px;
+    height: 81px;
+}
+.feature-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.feature-desc{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    line-height: 31.5px;
+    text-align: left;
+    padding-left: 10px;
+}
+.prompt-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.prompt-left-side, .prompt-right-side{
+    width: 40%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .feature-title h2{
+        font-size: 42px;
+        line-height: 58px;
+    }
+    .feature-prompt img{
+        width: 59px;
+        height: 59px;
+    }
+    .feature-prompt h3{
+        font-size: 31px;
+        line-height: 41.5px;
+    }
+    .feature-icon{
+        width: 61px;
+        height: 61px;
+    }
+    .feature-desc{
+        font-size: 15px;
+        line-height: 25px;
+        padding-left: 10px;
+    }
+    .prompt-left-side, .prompt-right-side{
+        width: 45%;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .features-container{
+        width: 95%;
+      }
+    .feature-title h2{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .feature-prompt img{
+        width: 49px;
+        height: 49px;
+    }
+    .feature-prompt h3{
+        font-size: 25px;
+        line-height: 31.5px;
+    }
+    .feature-icon{
+        width: 51px;
+        height: 51px;
+    }
+    .feature-desc{
+        font-size: 13px;
+        line-height: 25px;
+        padding-left: 10px;
+    }
+    .prompt-left-side, .prompt-right-side{
+        width: 48%;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+ .prompt-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+ }
+ .feature-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+    .features-container{
+        width: 95%;
+      }
+    .feature-title h2{
+        font-size: 42px;
+        line-height: 58px;
+    }
+    .feature-prompt img{
+        width: 69px;
+        height: 69px;
+    }
+    .feature-prompt h3{
+        font-size: 35px;
+        line-height: 41.5px;
+    }
+    .feature-icon{
+        width: 61px;
+        height: 61px;
+    }
+    .feature-desc{
+        font-size: 17px;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+    .prompt-left-side, .prompt-right-side{
+        width: 80%;
+    }
+    
+}
